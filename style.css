@@ -1,17 +1,21 @@
-
+/* Estilizacao do Site */ /*  */
 body {
-  font-family: Arial, sans-serif;
+  background-color: #fdf6f0; /* Cor do fundo */
+  color: #333;               /* Cor do texto */
+  font-family: 'Verdana', sans-serif; /* Fonte do texto */
+  font-size: 16px; /* Tamanho da fonte do texto */
   margin: 0;
   padding: 0;
 }
 header {
-  background-color: #333;
+  background-color: #8e44ad; /* Cor do fundo do cabecalho */
   padding: 1em;
-  color: white;
-  text-align: center;
+  color: white; /* Cor do texto do cabecalho */
+  text-align: center; /* Alinhamento do texto do cabecalho */
 }
 nav {
-  background-color: #444;
+  /* Barra de navegacao */
+  background-color: #9b59b6;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -23,7 +27,9 @@ nav a {
   font-weight: bold;
 }
 nav a:hover {
+  /* Estilizacao ao passar o mouse por cima */
   text-decoration: underline;
+  color: #8e44ad; 
 }
 main {
   padding: 2em;
